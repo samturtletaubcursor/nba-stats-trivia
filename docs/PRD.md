@@ -9,7 +9,7 @@ Aligned to the [📋 PRD](https://www.notion.so/329da74ef04580288251f6677469c25c
 - **Date:** 2026-05-27
 - **Status:** Draft
 - **Repo:** https://github.com/samturtletaubcursor/nba-stats-trivia
-- **Live demo:** https://samturtletaubcursor.github.io/nba-stats-trivia/
+- **Live demo:** https://samturtletaubcursor.github.io/nba-stats-trivia/site/
 
 ## Opportunity
 
@@ -30,7 +30,7 @@ Ship a **static web trivia app** that loads **in-repo stub JSON** via `fetch`. C
 | Area | v1 decision |
 |------|-------------|
 | External APIs | **Not used** for gameplay |
-| Data | **`public/data/stub.json`** (20 questions, player + team, 1991–2026) |
+| Data | **`docs/site/data/stub.json`** (20 questions, player + team, 1991–2026) |
 | Distribution | **Public MIT repo**; optional static hosting with no secrets |
 | UI | Start screen, quiz card, results screen; stub disclaimer badge |
 
@@ -41,7 +41,7 @@ Ship a **static web trivia app** that loads **in-repo stub JSON** via `fetch`. C
 ## Mocks / Visuals / Prototype
 
 - Wireframe: `docs/wireframes/primary-screen.html`
-- Working UI: `public/index.html` + local HTTP server
+- Working UI: `docs/site/index.html` + local HTTP server
 - Screenshots: capture after first local run for Notion / README
 
 ## Functional requirements

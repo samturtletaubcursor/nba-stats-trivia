@@ -6,10 +6,10 @@ A simple browser trivia game about NBA player and team statistics from **1991 th
 
 ## Quick start
 
-Serve the `public/` folder over HTTP (required for `fetch`):
+Serve `docs/site/` over HTTP (required for `fetch`):
 
 ```bash
-cd public
+cd docs/site
 python3 -m http.server 8080
 ```
 
@@ -17,23 +17,24 @@ Open [http://localhost:8080](http://localhost:8080).
 
 ## Live demo
 
-https://samturtletaubcursor.github.io/nba-stats-trivia/
+https://samturtletaubcursor.github.io/nba-stats-trivia/site/
 
-(Root `index.html` redirects to `public/`; GitHub Pages serves from `main`.)
+(GitHub Pages publishes the `docs/` folder on `main`.)
 
 ## Project structure
 
 | Path | Purpose |
 |------|---------|
-| `public/index.html` | Quiz UI |
-| `public/js/app.js` | Game logic (loads stub JSON) |
-| `public/data/stub.json` | 20 multiple-choice questions |
+| `docs/site/index.html` | Quiz UI |
+| `docs/site/js/app.js` | Game logic (loads stub JSON) |
+| `docs/site/data/stub.json` | 20 multiple-choice questions |
 | `docs/PRD.md` | Product requirements document |
 | `docs/wireframes/primary-screen.html` | Low-fi wireframe |
+| `public/` | Legacy copy (prefer `docs/site/`) |
 
 ## Data model (stub)
 
-Questions in `public/data/stub.json` include `category` (`player` | `team`), `season`, `prompt`, `choices`, `correctIndex`, and `explanation`. Replace this file or add an adapter layer if you later integrate a real stats API.
+Questions in `docs/site/data/stub.json` include `category` (`player` | `team`), `season`, `prompt`, `choices`, `correctIndex`, and `explanation`. Replace this file or add an adapter layer if you later integrate a real stats API.
 
 ## Constraints (v1)
 

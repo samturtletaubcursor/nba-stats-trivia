@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "NBA Stats Trivia",
+    "subtitle": "Player & team stats, 1991–2026",
+    "dataSource": "stub",
+    "disclaimer": "Illustrative stub data for demo purposes — not live league feeds."
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "category": "player",
+      "season": "1995-96",
+      "prompt": "Who led the NBA in scoring during the 1995-96 regular season?",
+      "choices": ["Michael Jordan", "Shaquille O'Neal", "Karl Malone", "Hakeem Olajuwon"],
+      "correctIndex": 0,
+      "explanation": "Jordan averaged 30.4 PPG in his first full season back from retirement."
+    },
+    {
+      "id": "q02",
+      "category": "team",
+      "season": "1995-96",
+      "prompt": "Which team finished the 1995-96 regular season with a 72-10 record?",
+      "choices": ["Chicago Bulls", "Seattle SuperSonics", "Utah Jazz", "Orlando Magic"],
+      "correctIndex": 0,
+      "explanation": "The Bulls set the pre-2016 wins record before winning the title."
+    },
+    {
+      "id": "q03",
+      "category": "player",
+      "season": "1999-00",
+      "prompt": "Who won the 1999-00 NBA scoring title?",
+      "choices": ["Shaquille O'Neal", "Allen Iverson", "Tracy McGrady", "Kobe Bryant"],
+      "correctIndex": 0,
+      "explanation": "Shaq led the league at 29.7 PPG during his first Lakers title season."
+    },
+    {
+      "id": "q04",
+      "category": "team",
+      "season": "2000-01",
+      "prompt": "Which franchise won the 2001 NBA Finals?",
+      "choices": ["Los Angeles Lakers", "Philadelphia 76ers", "San Antonio Spurs", "Indiana Pacers"],
+      "correctIndex": 0,
+      "explanation": "The Lakers beat Philadelphia 4-1 for their second straight championship."
+    },
+    {
+      "id": "q05",
+      "category": "player",
+      "season": "2005-06",
+      "prompt": "Kobe Bryant's 81-point game (second-highest in NBA history) came against which team?",
+      "choices": ["Toronto Raptors", "Dallas Mavericks", "Phoenix Suns", "Utah Jazz"],
+      "correctIndex": 0,
+      "explanation": "Bryant scored 81 on January 22, 2006 at Staples Center vs. Toronto."
+    },
+    {
+      "id": "q06",
+      "category": "player",
+      "season": "2007-08",
+      "prompt": "Who was named 2007-08 NBA Most Valuable Player?",
+      "choices": ["Kobe Bryant", "LeBron James", "Kevin Garnett", "Chris Paul"],
+      "correctIndex": 0,
+      "explanation": "Bryant won his only regular-season MVP after leading the Lakers to 57 wins."
+    },
+    {
+      "id": "q07",
+      "category": "team",
+      "season": "2007-08",
+      "prompt": "Which team won the 2008 NBA championship?",
+      "choices": ["Boston Celtics", "Los Angeles Lakers", "Detroit Pistons", "San Antonio Spurs"],
+      "correctIndex": 0,
+      "explanation": "The Big Three Celtics defeated the Lakers in six games."
+    },
+    {
+      "id": "q08",
+      "category": "player",
+      "season": "2010-11",
+      "prompt": "Who led the league in rebounds per game in 2010-11 (stub figure: 15.2 RPG)?",
+      "choices": ["Kevin Love", "Dwight Howard", "Blake Griffin", "Andrew Bynum"],
+      "correctIndex": 0,
+      "explanation": "Love's double-double dominance anchored Minnesota's frontcourt that season."
+    },
+    {
+      "id": "q09",
+      "category": "team",
+      "season": "2015-16",
+      "prompt": "Which team broke the single-season wins record with 73 victories in 2015-16?",
+      "choices": ["Golden State Warriors", "Chicago Bulls", "San Antonio Spurs", "Miami Heat"],
+      "correctIndex": 0,
+      "explanation": "The Warriors went 73-9 before losing a seven-game Finals to Cleveland."
+    },
+    {
+      "id": "q10",
+      "category": "player",
+      "season": "2015-16",
+      "prompt": "Who was unanimous NBA MVP in 2015-16?",
+      "choices": ["Stephen Curry", "LeBron James", "Kawhi Leonard", "James Harden"],
+      "correctIndex": 0,
+      "explanation": "Curry made a record 402 three-pointers and revolutionized spacing."
+    },
+    {
+      "id": "q11",
+      "category": "team",
+      "season": "2015-16",
+      "prompt": "Which team came back from a 3-1 Finals deficit to win the 2016 title?",
+      "choices": ["Cleveland Cavaliers", "Golden State Warriors", "Oklahoma City Thunder", "Toronto Raptors"],
+      "correctIndex": 0,
+      "explanation": "LeBron and the Cavs delivered Cleveland's first major sports title since 1964."
+    },
+    {
+      "id": "q12",
+      "category": "player",
+      "season": "2016-17",
+      "prompt": "Who averaged a triple-double for the entire 2016-17 season?",
+      "choices": ["Russell Westbrook", "LeBron James", "James Harden", "Nikola Jokic"],
+      "correctIndex": 0,
+      "explanation": "Westbrook's 31.6/10.7/10.4 line broke Oscar Robertson's single-season benchmark."
+    },
+    {
+      "id": "q13",
+      "category": "team",
+      "season": "2018-19",
+      "prompt": "Which franchise won the 2019 NBA championship (first title outside the U.S.)?",
+      "choices": ["Toronto Raptors", "Golden State Warriors", "Milwaukee Bucks", "Boston Celtics"],
+      "correctIndex": 0,
+      "explanation": "Kawhi Leonard's Raptors defeated the Warriors in six games."
+    },
+    {
+      "id": "q14",
+      "category": "player",
+      "season": "2020-21",
+      "prompt": "Who won 2020-21 Defensive Player of the Year (stub: third DPOY)?",
+      "choices": ["Rudy Gobert", "Giannis Antetokounmpo", "Draymond Green", "Marcus Smart"],
+      "correctIndex": 0,
+      "explanation": "Gobert anchored Utah's top-rated defense before later moves to Minnesota."
+    },
+    {
+      "id": "q15",
+      "category": "team",
+      "season": "2021-22",
+      "prompt": "Which team won the 2022 NBA Finals?",
+      "choices": ["Golden State Warriors", "Boston Celtics", "Phoenix Suns", "Milwaukee Bucks"],
+      "correctIndex": 0,
+      "explanation": "Curry won Finals MVP as Golden State beat Boston in six."
+    },
+    {
+      "id": "q16",
+      "category": "player",
+      "season": "2022-23",
+      "prompt": "Who broke the NBA single-game scoring record with 70 points in 2023 (stub event)?",
+      "choices": ["Donovan Mitchell", "Joel Embiid", "Damian Lillard", "Devin Booker"],
+      "correctIndex": 0,
+      "explanation": "Mitchell's 70-point outburst vs. Chicago highlighted the pace-and-space era."
+    },
+    {
+      "id": "q17",
+      "category": "player",
+      "season": "2023-24",
+      "prompt": "Nikola Jokic led the league in total assists for centers in 2023-24 — which team does he play for?",
+      "choices": ["Denver Nuggets", "Dallas Mavericks", "Phoenix Suns", "Memphis Grizzlies"],
+      "correctIndex": 0,
+      "explanation": "Jokic's playmaking hub powers Denver's offense around the two-time MVP."
+    },
+    {
+      "id": "q18",
+      "category": "team",
+      "season": "2023-24",
+      "prompt": "Which team won the 2024 NBA championship?",
+      "choices": ["Boston Celtics", "Dallas Mavericks", "Denver Nuggets", "Miami Heat"],
+      "correctIndex": 0,
+      "explanation": "Boston rolled to an 18th banner, defeating Dallas in five Finals games."
+    },
+    {
+      "id": "q19",
+      "category": "player",
+      "season": "2024-25",
+      "prompt": "Stub: Who is listed as the 2024-25 scoring leader in this demo dataset (34.1 PPG)?",
+      "choices": ["Shai Gilgeous-Alexander", "Luka Doncic", "Giannis Antetokounmpo", "Anthony Edwards"],
+      "correctIndex": 0,
+      "explanation": "SGA's rim pressure and mid-range game headline Oklahoma City's contender run."
+    },
+    {
+      "id": "q20",
+      "category": "team",
+      "season": "1991-92",
+      "prompt": "Which team won the NBA title in Michael Jordan's first championship season (1991-92)?",
+      "choices": ["Chicago Bulls", "Portland Trail Blazers", "Utah Jazz", "Los Angeles Lakers"],
+      "correctIndex": 0,
+      "explanation": "The Bulls beat Portland 4-2, beginning their first three-peat."
+    }
+  ]
+}

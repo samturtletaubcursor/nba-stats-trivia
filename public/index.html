@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="NBA player and team stats trivia (1991–2026) using in-repo stub data — no external APIs."
+    />
+    <title>NBA Stats Trivia</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>NBA Stats Trivia</h1>
+        <p id="subtitle">Player &amp; team stats, 1991–2026</p>
+        <span id="stub-badge" class="stub-badge">Stub data demo</span>
+      </header>
+
+      <p id="load-error" class="error hidden" role="alert"></p>
+
+      <main>
+        <section id="screen-start" class="screen card start-panel active">
+          <h2>Ready to play?</h2>
+          <p>
+            Twenty multiple-choice questions drawn from stub JSON covering iconic
+            player and team stat moments since 1991. No accounts, no API keys.
+          </p>
+          <button type="button" id="start-btn" class="btn btn-primary">
+            Start quiz
+          </button>
+        </section>
+
+        <section id="screen-quiz" class="screen">
+          <div class="score-bar">
+            <span>Score: <strong id="score">0</strong></span>
+            <span id="progress">1 / 20</span>
+          </div>
+          <article class="card">
+            <div class="card-meta">
+              <span id="category" class="tag player">player</span>
+              <span id="season" class="tag">1995-96</span>
+            </div>
+            <p id="question" class="question-text"></p>
+            <div id="choices" class="choices"></div>
+            <div id="feedback" class="feedback hidden"></div>
+            <div class="actions">
+              <button
+                type="button"
+                id="next-btn"
+                class="btn btn-primary"
+                disabled
+              >
+                Next question
+              </button>
+            </div>
+          </article>
+        </section>
+
+        <section id="screen-results" class="screen card results">
+          <h2>Final buzzer</h2>
+          <p class="final-score" id="final-score">0 / 20</p>
+          <p id="final-message"></p>
+          <button type="button" id="restart-btn" class="btn btn-primary">
+            Play again
+          </button>
+        </section>
+      </main>
+    </div>
+    <script src="./js/app.js" type="module"></script>
+  </body>
+</html>

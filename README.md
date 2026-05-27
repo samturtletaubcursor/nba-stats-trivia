@@ -1,5 +1,7 @@
 # NBA Stats Trivia
 
+**Repository:** https://github.com/samturtletaubcursor/nba-stats-trivia
+
 A simple browser trivia game about NBA player and team statistics from **1991 through 2026**. All question data lives in-repo as **stub JSON** — no external APIs, API keys, or live league feeds.
 
 ## Quick start

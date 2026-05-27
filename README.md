@@ -30,7 +30,6 @@ https://samturtletaubcursor.github.io/nba-stats-trivia/site/
 | `docs/site/data/stub.json` | 20 multiple-choice questions |
 | `docs/PRD.md` | Product requirements document |
 | `docs/wireframes/primary-screen.html` | Low-fi wireframe |
-| `public/` | Legacy copy (prefer `docs/site/`) |
 
 ## Data model (stub)
 

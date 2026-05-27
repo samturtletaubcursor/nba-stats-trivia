@@ -19,7 +19,7 @@ Open [http://localhost:8080](http://localhost:8080).
 
 https://samturtletaubcursor.github.io/nba-stats-trivia/
 
-(GitHub Pages deploys the `public/` folder on each push to `main`.)
+(Root `index.html` redirects to `public/`; GitHub Pages serves from `main`.)
 
 ## Project structure
 

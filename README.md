@@ -28,7 +28,7 @@ https://samturtletaubcursor.github.io/nba-stats-trivia/site/
 | `docs/site/index.html` | Quiz UI |
 | `docs/site/js/app.js` | Game logic (loads stub JSON) |
 | `docs/site/data/stub.json` | 20 multiple-choice questions |
-| `docs/PRD.md` | Product requirements document |
+| `prd.md` | Product requirements document |
 | `docs/wireframes/primary-screen.html` | Low-fi wireframe |
 
 ## Data model (stub)

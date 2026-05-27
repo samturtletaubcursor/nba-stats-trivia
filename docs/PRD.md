@@ -8,7 +8,8 @@ Aligned to the [📋 PRD](https://www.notion.so/329da74ef04580288251f6677469c25c
 - **Team:** Personal / demo
 - **Date:** 2026-05-27
 - **Status:** Draft
-- **Repo:** `nba-stats-trivia` (public)
+- **Repo:** https://github.com/samturtletaubcursor/nba-stats-trivia
+- **Live demo:** https://samturtletaubcursor.github.io/nba-stats-trivia/
 
 ## Opportunity
 

@@ -15,6 +15,12 @@ python3 -m http.server 8080
 
 Open [http://localhost:8080](http://localhost:8080).
 
+## Live demo
+
+https://samturtletaubcursor.github.io/nba-stats-trivia/
+
+(GitHub Pages deploys the `public/` folder on each push to `main`.)
+
 ## Project structure
 
 | Path | Purpose |
